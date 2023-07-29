@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-                    
+ /*this is a navigation bar */                  
 .nav-conteiner{
     display: flex;
     background-color:gray;
@@ -27,6 +27,8 @@ span{
 
 }
 
+    /*this is a banner pannel*/
+
 .bannar-conteiner{
 
     height: 100vh;
@@ -42,17 +44,16 @@ span{
 
 }
 .btn-in{
-    border: 1px solid;
+    border: none;
     border-radius: 5px;
-     width: 190px;
-     height: 50px; 
+     padding: 12px 20px;
      margin-top: 10px;
      gap: 10px;
 
 
 }
 
-#btn-1{
+.bg-primary {
     background-color: rgb(248, 69, 3);
     color: white;
 }
@@ -71,9 +72,114 @@ span{
     width: 50%;
     margin: auto;
 }
+
+/* main conteiner service */
+
+            .service-conteiner{
+                background-color: black;
+                color: white;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+                padding: px;
+               
+            }
+
+
+        /* left-box pannel */
+
+        .service-box-left{
+        }
+
+        .service-box-left-info{
+                padding: 1px;
+                margin: 1px ;
+               
+
+
+        }
+        h{
+            font-size: 50px;
+            font-weight: bold;
+            padding: 0px;
+        }
+        p{
+            font-size: 20px;
+            padding: 10px;
+        }
+        ol li{
+
+            font-size: 16px;
+        }
+
+        .service-box-left-author{
+            display: flex;
+            gap: 50px;
+            align-items: center;
+          
+           
+        
+           
+          
+
+        }
+
+            .author-img {
+              width: 70px;
+              height: 70px;
+              border-radius: 35px;
+            }
+
+        .box-corner{
+            display: flex;
+            justify-content: center;
+            align-items: centers;
+           border-right: 20px;
+           padding-right: 20px;
+        }
+
+        .service-btn{
+
+            padding: 5px;
+            color: rgb(145, 134, 134);
+            border: 1px solid;
+            border-radius: 30px;
+    
+        }
+
+
    
+ /* rigth image box */
+
+ .service-info {
+
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+  
    
+  
    
+ } 
+   .img-box{
+    width: 150px;
+    height: 100px;
+    
+
+
+   }
+   .two-service-box {
+    display: flex;
+
+   }
 
 
 
